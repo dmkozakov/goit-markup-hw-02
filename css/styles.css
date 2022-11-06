@@ -177,6 +177,8 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -187,11 +189,14 @@ body {
 .filter {
   color: var(--primary-text-color);
   background-color: var(--button-bg-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: inherit;
+
+  cursor: pointer;
 }
 
 .filter:hover,
