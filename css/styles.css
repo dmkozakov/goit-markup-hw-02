@@ -4,6 +4,7 @@
   --secondary-text-color: #757575;
   --primary-white-color: #ffffff;
   --button-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
 }
 /* button active #188CE8
 font-family: 'Raleway', sans-serif;
@@ -69,10 +70,12 @@ body {
 
 /* Герой */
 
+.hero {
+  background-color: var(--dark-bg-color);
+}
+
 .hero-title {
   color: var(--primary-white-color);
-  background-color: #2f303a;
-  /* Бекграунд додав щоб було видно текст */
 
   font-weight: 900;
   font-size: 44px;
@@ -125,10 +128,12 @@ body {
 
 /* Футер */
 
+.footer-page {
+  background-color: var(--dark-bg-color);
+}
+
 .address {
   color: var(--primary-white-color);
-  background-color: #2f303a;
-  /* Бекграунд додав щоб було видно текст */
 }
 
 .address-descr {
